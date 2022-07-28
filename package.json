@@ -1,0 +1,22 @@
+{
+  "name": "migration-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mrgnlabs/migration-script.git",
+  "author": "Jakob Povšič <jakob.povsic@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@blockworks-foundation/mango-client": "^3.6.5",
+    "@mrgnlabs/marginfi-client": "^0.6",
+    "@solana/web3.js": "^1.50.1",
+    "bignumber.js": "^9.0.2",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "ts-node script.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
